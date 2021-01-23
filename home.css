@@ -1,0 +1,78 @@
+body{
+	background-color: white;
+}
+
+h1{
+	color: black;
+	text-align: center;
+	margin-bottom: 40px;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: Impact;
+	font-size: bold;
+	background-image: linear-gradient(to right,#0000ff, #00ff00, #ff0000);
+}
+
+button{
+	outline: none;
+}
+
+h3{
+	margin: 0 auto;
+	text-align: center;
+	color: #232300;
+	font-family: Comic Sans MS;
+}
+
+.vertical-line{
+        display: inline-block;
+        border-left: 2px solid orange;
+        margin: 0 10px;
+        height: 120px;
+    }
+
+.first{
+	width: 30%;
+	height:50vh;
+	float: left;
+	padding: 5px;
+	margin: 2%;
+	text-align: center;
+	box-shadow: rgba(0,0,0,0.8) 0px 5px 10px;
+}
+
+.action{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 90px;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.5;
+}
+
+.generate{
+	background-image: linear-gradient(to right, #00ff00, #ff0000);
+	border:none;
+	margin-top: 170px;
+	margin-right: 20px;
+}
+
+.play{
+	margin-top: 170px;
+}
+
+button:hover{
+	box-shadow: rgba(0,0,0,0.8) 0px 5px 10px;
+	transition: all 0.2s linear;
+}
+
+.second{
+	width: 50%;
+	float: right;
+	display: inline-block;
+}
